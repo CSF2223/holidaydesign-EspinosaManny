@@ -1,0 +1,40 @@
+/*
+Color Palette
+background color: #F90716
+primary: #F9D00F
+secondary: #F0AE2C
+tertiary: #FBF7F7
+accent: #F92727
+white: #fff
+black: #000  
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Caudex&family=Cinzel+Decorative&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+header{
+    margin: 0.2rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    border: 1px solid #FBF7F7;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+body {
+    background-color: #F90716;
+    color: #F0AE2C;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+cite {
+    font-size: 2rem;
+}
+
+p {
+    font-size:1.5rem;
+}
