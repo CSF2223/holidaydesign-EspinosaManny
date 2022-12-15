@@ -38,3 +38,42 @@ cite {
 p {
     font-size:1.5rem;
 }
+
+.Krampus {
+      width: auto;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+}
+
+.Krampus {
+    text-decoration: none;
+    color: #F0AE2C;
+    
+}
+
+.Images {
+    border-radius: 30px;
+}
+
+
+
+
+@media (min-width: 800px) {
+
+
+    .holidays {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .Krampus {
+        max-width: 20px;
+    }
+    
+    .Images {
+        max-width: 20px;
+    }
+    
+}
