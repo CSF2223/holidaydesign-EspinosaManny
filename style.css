@@ -21,10 +21,11 @@ header {
     margin: 0.2rem;
     letter-spacing: 0.2rem;
     text-align: center;
-    border: 1px solid #FBF7F7;
+    border: 3px solid #FBF7F7;
     padding: 0.5rem;
     text-transform: uppercase;
     font-size: 2rem;
+    border-style: outset;
 }
 
 body {
