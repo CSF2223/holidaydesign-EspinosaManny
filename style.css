@@ -12,7 +12,8 @@ black: #000
 @import url('https://fonts.googleapis.com/css2?family=Caudex&family=Cinzel+Decorative&display=swap');
 
 html {
-    font-size: 62.5%;     /* Default font size is 16px - 62.5% of 16 is 10px -
+    font-size: 62.5%;
+    /* Default font size is 16px - 62.5% of 16 is 10px -
                             1 rem(relative unit)now will be equivilant to 10px*/
 }
 
@@ -42,7 +43,7 @@ p {
     font-size: 1.5rem;
 }
 
- .imageCard{
+.imageCard {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,12 +55,12 @@ p {
     width: 80%;
     height: auto;
     border-radius: 30px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .imageCard a {
     text-decoration: none;
-    color:#F0AE2C;
+    color: #F0AE2C;
 }
 
 .cardText {
@@ -68,7 +69,7 @@ p {
     padding: 2rem;
     border-radius: 30px;
     margin-top: 2rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 a[target="_blank"] {
@@ -83,12 +84,12 @@ a[target="_blank"] {
 
     .holidays {
         display: flex;
-        flex-direction:  row;
+        flex-direction: row;
         justify-content: space-evenly;
         flex-wrap: wrap;
     }
-    
+
     .imageCard {
         max-width: 60%;
     }
-}   
+}
